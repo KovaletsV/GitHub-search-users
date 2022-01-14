@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.search-bar {
+    margin: 20px;
+    text-align: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-bar input {
+    width: 75%;
+}
+.container {
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+img.user {
+    height: 85px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    float: left;
+}
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+.input-group {
+    margin: 0 auto;
+}
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout h4,
+p {
+    font-weight: bold;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info:hover {
+    border-left-color: #5cb85c;
+    color: #5cb85c !important;
+}
+.bs-callout-info:hover h4 {
+    color: #5cb85c !important;
+}
+.bs-callout-info:hover p {
+    color: #5cb85c !important;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+.fas {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
 }
